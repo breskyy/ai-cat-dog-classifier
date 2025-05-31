@@ -46,6 +46,10 @@ ENV/
 *.h5
 *.pth
 
+# Flagged files
+flagged/
+**/flagged/
+
 # Keep example images
 !example_images/*.jpg
 
