@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Local files
+*.log
+*.csv
+*.h5
+*.pth
+
+# Keep example images
+!example_images/*.jpg
+
+# Keep empty data directories but ignore contents
+data/*
+!data/.gitkeep
+data/train/*
+!data/train/.gitkeep
+data/train/cat/*
+!data/train/cat/.gitkeep
+data/train/dog/*
+!data/train/dog/.gitkeep
+data/test/*
+!data/test/.gitkeep
+data/test/cat/*
+!data/test/cat/.gitkeep
+data/test/dog/*
+!data/test/dog/.gitkeep
+
+# Keep empty saved_models directory but ignore contents
+saved_models/*
+!saved_models/.gitkeep 
