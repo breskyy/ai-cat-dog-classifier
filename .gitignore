@@ -53,22 +53,6 @@ flagged/
 # Keep example images
 !example_images/*.jpg
 
-# Keep empty data directories but ignore contents
-data/*
-!data/.gitkeep
-data/train/*
-!data/train/.gitkeep
-data/train/cat/*
-!data/train/cat/.gitkeep
-data/train/dog/*
-!data/train/dog/.gitkeep
-data/test/*
-!data/test/.gitkeep
-data/test/cat/*
-!data/test/cat/.gitkeep
-data/test/dog/*
-!data/test/dog/.gitkeep
-
 # Keep empty saved_models directory but ignore contents
 saved_models/*
 !saved_models/.gitkeep 
